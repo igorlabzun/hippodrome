@@ -1,3 +1,4 @@
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -93,6 +94,7 @@ class HorseTest {
         }
 
     }
+
     @ParameterizedTest
     @ValueSource(doubles ={0.2, 0.3, 0.5, 0.6, 0.9})
     public void move_Calculators(double fakeRandomValue){
