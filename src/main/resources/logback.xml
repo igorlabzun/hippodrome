@@ -1,7 +1,7 @@
 
 <configuration>
     <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/hippodrome.log</file>
+        <file>logs/hippodrome.txt</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>logs/logFile.%d{yyyy-MM-dd_HH:mm:ss}.log</fileNamePattern>
             <maxHistory>5</maxHistory>
